@@ -22,6 +22,7 @@ namespace NJsonSchema.Tests.Conversion
         [Fact]
         public async Task When_converting_type_inheriting_from_dictionary_then_it_should_be_correct()
         {
+            //// Arrange Test
             //// Act
             var dict = new DictionarySubType();
             dict.Foo = "abc";
